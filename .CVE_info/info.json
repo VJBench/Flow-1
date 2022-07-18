@@ -1,0 +1,10 @@
+{
+    "buggy_file_path": "flow-server/src/main/java/com/vaadin/flow/server/DevModeHandler.java",
+    "buggy_method":[[296,385]],
+    "buggy_line":[[324,325]],
+    "bug_type": "replace",
+    "compile_cmd": "mvn clean compile -pl flow-server",
+    "test_cmd" : "mvn clean test -pl flow-server -Dtest=DevModeHandlerTest",
+    "CVE": "CVE-2021-33604",
+    "github_url":"https://github.com/vaadin/flow"
+}
